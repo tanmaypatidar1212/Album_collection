@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 0px 5px var(--text-700);
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(64, 49, 202)
+}
+
+.logo-link {
+  text-decoration:underline black;
+  font-family: "Courier New", Courier, monospace;
+  background: linear-gradient(hsl(338, 70%, 48%), hsl(139, 69%, 39%));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-family: "Courier New", Courier, monospace;
+  cursor: pointer;
+  font-size: 25px;
+  
+}

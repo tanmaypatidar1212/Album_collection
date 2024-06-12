@@ -1,0 +1,102 @@
+.main {
+    background:rgb(242, 245, 239);
+    background-image: -o-linear-gradient();
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    --text: var(--text-900);
+    --background: var(--background-50);
+    --primary: var(--primary-500);
+    --secondary: var(--secondary-500);
+    --accent: var(--accent-500);
+}
+
+.addAlbum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(196, 79, 151);
+}
+
+.addAlbum label {
+    font-size: 2.5rem;
+    color:rgb(0, 0, 0);
+    color: linear-gradient(#e281a4, #bb54cf);
+}
+
+.addAlbum button {
+    margin-top: 10px;
+    background-color:greenyellow;
+    height: 30px;
+    width: 110px;
+    color: blue;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.addAlbum button:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+}
+
+.Wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.album-box {
+    height: 115px;
+    width: 300px;
+    align-items: center;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 30px;
+    background-color:rgb(214, 119, 135);
+    padding: 10px 0;
+}
+
+h5 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.album-box .buttons {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 9px;
+    background-color: rgba(144, 211, 90, 0.89);
+}
+
+.buttons .del {
+    height: 30px;
+    width: 70px;
+    border: none;
+    border-radius: 8px;
+    color:  rgb(0, 0, 0);
+    background-color: rgb(182, 44, 44);
+}
+
+.buttons .upd {
+    background-color: var(--secondary-600);
+    height: 30px;
+    width: 70px;
+    border: none;
+    text-align: center;
+    border-radius: 8px;
+    color: var(--text-50);
+    text-decoration: none;
+}
+
+.del:hover,
+.upd:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+}
